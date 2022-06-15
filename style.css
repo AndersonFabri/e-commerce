@@ -1,0 +1,138 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+}
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.menu-column.menu-second-column {
+    justify-content: flex-end;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+}
+
+.menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: rgb(255, 255, 255);
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.products-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-first {
+    width: 24%;
+    height: 500px;
+    left: 130px;
+    top: 114px;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+}
+
+.card-second {
+    width: 24%;
+    height: 500px;
+    left: 524px;
+    top: 114px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.card-third {
+    width: 24%;
+    height: 500px;
+    left: 918px;
+    top: 114px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.card-fourth {
+    width: 24%;
+    height: 500px;
+    left: 1312px;
+    top: 114px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.card-fifth {
+    width: 24%;
+    height: 500px;
+    left: 130px;
+    top: 648px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.card-sixth {
+    width: 24%;
+    height: 500px;
+    left: 524px;
+    top: 648px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.card-seventh {
+    width: 24%;
+    height: 500px;
+    left: 918px;
+    top: 648px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.card-eighth {
+    width: 24%;
+    height: 500px;
+    left: 1312px;
+    top: 648px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.button {
+    text-align: center;
+    width: 280px;
+    height: 48px;
+    background: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #ffffff;
+}
